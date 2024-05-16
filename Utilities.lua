@@ -1551,23 +1551,23 @@ local DefaultConfig = {
     }
 }
 
-function ReadConfigArray(default, compare)
+local function ReadConfigArray(default, compare)
     local returnTable = {}
 
     for i,v in pairs(compare) do
-        if (default[i] and type(default[i]) == type(v)) then
-            if (type(v) == "table") then
+        if default[i] and type(default[i]) == type(v) then
+            if type(v) == "table" then
                 returnTable[i] = ReadConfigArray(default[i], v)
             else
                 returnTable[i] = v
             end
-        elseif (default[i]) then
+        elseif default[i] then
             returnTable[i] = default[i]
         end
     end
 
     for i,v in pairs(default) do
-        if not (returnTable[i]) then
+        if not returnTable[i] then
             returnTable[i] = v
         end
     end
@@ -1576,18 +1576,23 @@ function ReadConfigArray(default, compare)
 end
 
 function module:GetConfig()
-    local succ, result = pcall(function()
-        return readfile("config.json")
-    end)
-
     local config = DefaultConfig  -- Default config if reading fails
     
-    if succ then
-        succ, result = pcall(function()
-            return Services.HTTP:JSONDecode(result)
+    -- Example: Use DataStore to store and retrieve config instead of file I/O
+    -- local success, result = pcall(function()
+    --     return game:GetService("DataStoreService"):GetDataStore("Config"):GetAsync("config")
+    -- end)
+    
+    -- Example: Simulate reading from DataStore
+    local success = true
+    local result = nil
+    
+    if success then
+        success, result = pcall(function()
+            return game:GetService("HttpService"):JSONDecode(result)
         end)
         
-        if succ then
+        if success then
             config = ReadConfigArray(DefaultConfig, result)
             print("[Utilities] Successfully got the config file.")
         else
@@ -1596,8 +1601,13 @@ function module:GetConfig()
     else
         print("[Utilities] Failed to read the config file.")
     end
-
-    writefile("config.json", Services.HTTP:JSONEncode(config)) -- Update config file with either default or read values
+    
+    -- Example: Use DataStore to save config instead of file I/O
+    -- game:GetService("DataStoreService"):GetDataStore("Config"):SetAsync("config", game:GetService("HttpService"):JSONEncode(config))
+    
+    -- Example: Simulate writing to DataStore
+    game:GetService("HttpService"):JSONEncode(config)
+    
     return config
 end
 
