@@ -1558,7 +1558,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#A71930",
                         Pants = "#A71930"
-
                     }
                 }
             },
@@ -1594,7 +1593,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#241773",
                         Pants = "#241773"
-
                     }
                 }
             },
@@ -1630,7 +1628,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#C60C30",
                         Pants = "#00338D"
-
                     }
                 }
             },
@@ -1666,7 +1663,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#0085CA",
                         Pants = "#0085CA"
-
                     }
                 }
             },
@@ -1702,7 +1698,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#C83803",
                         Pants = "#0B162A"
-
                     }
                 }
             },
@@ -1738,7 +1733,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#FB4F14",
                         Pants = "#FB4F14"
-
                     }
                 }
             },
@@ -1774,7 +1768,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#311D00",
                         Pants = "#311D00"
-
                     }
                 }
             },
@@ -1810,7 +1803,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#041E42",
                         Pants = "#041E42"
-
                     }
                 }
             },
@@ -1846,7 +1838,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#FB4F14",
                         Pants = "#002244"
-
                     }
                 }
             },
@@ -1882,7 +1873,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#0076B6",
                         Pants = "#0076B6"
-
                     }
                 }
             },
@@ -1918,7 +1908,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#203731",
                         Pants = "#203731"
-
                     }
                 }
             },
@@ -1954,7 +1943,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#A71930",
                         Pants = "#03202F"
-
                     }
                 }
             },
@@ -1990,7 +1978,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#002C5F",
                         Pants = "#002C5F"
-
                     }
                 }
             },
@@ -2026,7 +2013,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#006778",
                         Pants = "#006778"
-
                     }
                 }
             },
@@ -2062,7 +2048,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#E31837",
                         Pants = "#E31837"
-
                     }
                 }
             },
@@ -2098,7 +2083,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#000000",
                         Pants = "#000000"
-
                     }
                 }
             },
@@ -2134,7 +2118,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#002A5E",
                         Pants = "#002A5E"
-
                     }
                 }
             },
@@ -2170,7 +2153,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#003594",
                         Pants = "#003594"
-
                     }
                 }
             },
@@ -2206,7 +2188,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#008E97",
                         Pants = "#008E97"
-
                     }
                 }
             },
@@ -2242,7 +2223,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#4F2683",
                         Pants = "#4F2683"
-
                     }
                 }
             },
@@ -2278,7 +2258,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#002244",
                         Pants = "#002244"
-
                     }
                 }
             },
@@ -2314,7 +2293,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#D3BC8D",
                         Pants = "#D3BC8D"
-
                     }
                 }
             },
@@ -2350,7 +2328,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#0B2265",
                         Pants = "#0B2265"
-
                     }
                 }
             },
@@ -2386,7 +2363,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#125740",
                         Pants = "#125740"
-
                     }
                 }
             },
@@ -2422,7 +2398,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#004C54",
                         Pants = "#004C54"
-
                     }
                 }
             },
@@ -2458,7 +2433,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#101820",
                         Pants = "#101820"
-
                     }
                 }
             },
@@ -2494,7 +2468,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#AA0000",
                         Pants = "#AA0000"
-
                     }
                 }
             },
@@ -2530,7 +2503,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#002244",
                         Pants = "#002244"
-
                     }
                 }
             },
@@ -2566,7 +2538,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#D50A0A",
                         Pants = "#D50A0A"
-
                     }
                 }
             },
@@ -2602,7 +2573,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#4B92DB",
                         Pants = "#4B92DB"
-
                     }
                 }
             },
@@ -2638,7 +2608,6 @@ function module:GetTeam(teamName)
                         Jersey = "#FFFFFF",
                         Stripe = "#773141",
                         Pants = "#773141"
-
                     }
                 }
             },
