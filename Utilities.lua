@@ -1494,7 +1494,7 @@ function module:GetTeam(teamName)
         }
     elseif (string.lower(teamName) == "cardinals") then
         return {
-            City = "Arizona",
+            City = "Arizona1",
             Name = "Cardinals",
             Abbreviation = "ARI",
             Colors = {
@@ -1709,7 +1709,7 @@ function module:GetTeam(teamName)
         }		
     elseif (string.lower(teamName) == "bengals") then
         return {
-            City = "Cincinnati",
+            City = "Cincinnati1",
             Name = "Bengals",
             Abbreviation = "CIN",
             Colors = {
@@ -1925,7 +1925,7 @@ function module:GetTeam(teamName)
         }	
     elseif (string.lower(teamName) == "texans") then
         return {
-            City = "Houston",
+            City = "Houston1",
             Name = "Texans",
             Abbreviation = "HOU",
             Colors = {
@@ -2177,7 +2177,7 @@ function module:GetTeam(teamName)
         }	
     elseif (string.lower(teamName) == "dolphins") then
         return {
-            City = "Miami",
+            City = "Miami1",
             Name = "Dolphins",
             Abbreviation = "MIA",
             Colors = {
@@ -2429,7 +2429,7 @@ function module:GetTeam(teamName)
         }	
     elseif (string.lower(teamName) == "steelers") then
         return {
-            City = "Pittsburgh",
+            City = "Pittsburgh1",
             Name = "Steelers",
             Abbreviation = "PIT",
             Colors = {
@@ -2573,7 +2573,7 @@ function module:GetTeam(teamName)
         }	
     elseif (string.lower(teamName) == "titans") then
         return {
-            City = "Tennessee",
+            City = "Tennessee1",
             Name = "Titans",
             Abbreviation = "TEN",
             Colors = {
