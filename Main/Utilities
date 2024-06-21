@@ -2614,7 +2614,7 @@ function module:GetTeam(teamName)
         }	
 elseif (string.lower(teamName) == "volunteers") then
     return {
-        City = "Knoxville",
+        City = "Tennessee",
         Name = "Volunteers",
         Abbreviation = "TENN",
         Colors = {
