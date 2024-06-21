@@ -2612,6 +2612,41 @@ function module:GetTeam(teamName)
                 }
             },
         }	
+elseif (string.lower(teamName) == "volunteers") then
+    return {
+        City = "Knoxville",
+        Name = "Volunteers",
+        Abbreviation = "TENN",
+        Colors = {
+            Normal = {
+                Main = "#FF8200",
+                Light = "#FFFFFF"
+            },
+            Alternate = {
+                Main = "#FFFFFF",
+                Light = "#FF8200"
+            },
+            Endzone = "#FF8200",
+            Jersey = {
+                Home = {
+                    NumberInner = "#FFFFFF",
+                    NumberStroke = "#FF8200",
+                    Helmet = "#FFFFFF",
+                    Jersey = "#FF8200",
+                    Stripe = "#FFFFFF",
+                    Pants = "#FFFFFF"
+                },
+                Away = {
+                    NumberInner = "#FF8200",
+                    NumberStroke = "#FFFFFF",
+                    Helmet = "#FFFFFF",
+                    Jersey = "#FFFFFF",
+                    Stripe = "#FF8200",
+                    Pants = "#FF8200"
+                }
+            }
+        },
+    }
     end
     return nil
 end
