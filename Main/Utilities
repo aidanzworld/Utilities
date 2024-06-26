@@ -57,6 +57,41 @@ function module:GetTeam(teamName)
                 }
             },
         }
+elseif (string.lower(teamName) == "georgia") then
+    return {
+        City = "Georgia",
+        Name = "Bulldogs",
+        Abbreviation = "UGA",
+        Colors = {
+            Normal = {
+                Main = "#BA0C2F",
+                Light = "#EA103F"
+            },
+            Alternate = {
+                Main = "#000000",
+                Light = "#161616"
+            },
+            Endzone = "#BA0C2F",
+            Jersey = {
+                Home = {
+                    NumberInner = "#FFFFFF",
+                    NumberStroke = "#BA0C2F",
+                    Helmet = "#BA0C2F",
+                    Jersey = "#BA0C2F",
+                    Stripe = "#000000",
+                    Pants = "#FFFFFF"
+                },
+                Away = {
+                    NumberInner = "#BA0C2F",
+                    NumberStroke = "#FFFFFF",
+                    Helmet = "#FFFFFF",
+                    Jersey = "#FFFFFF",
+                    Stripe = "#BA0C2F",
+                    Pants = "#BA0C2F"
+                }
+            }
+        },
+    }
     elseif (string.lower(teamName) == "michigan state") then
         return {
             City = "Michigan State",
@@ -92,6 +127,41 @@ function module:GetTeam(teamName)
                 }
             },
         }
+elseif (string.lower(teamName) == "michigan") then
+    return {
+        City = "Michigan",
+        Name = "Wolverines",
+        Abbreviation = "MICH",
+        Colors = {
+            Normal = {
+                Main = "#00274C",
+                Light = "#003B72"
+            },
+            Alternate = {
+                Main = "#DBAC04",
+                Light = "#FFCB05"
+            },
+            Endzone = "#00274C",
+            Jersey = {
+                Home = {
+                    NumberInner = "#FFCB05",
+                    NumberStroke = "#00274C",
+                    Helmet = "#00274C",
+                    Jersey = "#00274C",
+                    Stripe = "#FFCB05",
+                    Pants = "#00274C"
+                },
+                Away = {
+                    NumberInner = "#00274C",
+                    NumberStroke = "#FFCB05",
+                    Helmet = "#00274C",
+                    Jersey = "#FFFFFF",
+                    Stripe = "#00274C",
+                    Pants = "#FFFFFF"
+                }
+            }
+        },
+    }
     elseif (string.lower(teamName) == "usc") then
         return {
             City = "USC",
