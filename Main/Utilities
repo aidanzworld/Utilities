@@ -2690,10 +2690,10 @@ elseif (string.lower(teamName) == "volunteers") then
         Colors = {
             Normal = {
                 Main = "#FF8200",
-                Light = "#FFFFFF"
+                Light = "#FF6600"
             },
             Alternate = {
-                Main = "#FFFFFF",
+                Main = "#FF6600",
                 Light = "#FF8200"
             },
             Endzone = "#FF8200",
