@@ -1422,6 +1422,41 @@ elseif (string.lower(teamName) == "michigan") then
                 }
             },
         }
+ elseif (string.lower(teamName) == "lsu") then
+        return {
+            City = "Louisiana",
+            Name = "Tigers",
+            Abbreviation = "LSU",
+            Colors = {
+                Normal = {
+                    Main = "#D8B01E",
+                    Light = "#FDD023"
+                },
+                Alternate = {
+                    Main = "#461D7C",
+                    Light = "#6E2FC6"
+                },
+                Endzone = "#461D7C",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#FDD023",
+                        NumberStroke = "#461D7C",
+                        Helmet = "#FDD023",
+                        Jersey = "#FFFFFF",
+                        Stripe = "#461D7C",
+                        Pants = "#FDD023"
+                    },
+                    Away = {
+                        NumberInner = "#FFFFFF",
+                        NumberStroke = "#FDD023",
+                        Helmet = "#FFFFFF",
+                        Jersey = "#461D7C",
+                        Stripe = "#461D7C",
+                        Pants = "#FFFFFF"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "northwestern") then
         return {
             City = "Northwestern",
