@@ -1868,8 +1868,8 @@ elseif (string.lower(teamName) == "michigan") then
                     },
                     Away = {
                         NumberInner = "#311D00",
-                        NumberStroke = "#FFFFFF",
-                        Helmet = "#FFFFFF",
+                        NumberStroke = "#FF3C00",
+                        Helmet = "#FF3C00",
                         Jersey = "#FFFFFF",
                         Stripe = "#311D00",
                         Pants = "#311D00"
